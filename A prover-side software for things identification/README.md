@@ -18,7 +18,7 @@ This module is dedicated to the characterization of a **BPUF (Behavioral Physica
     *   `distanciaJaccard_mod_average`: For computing the average modified Jaccard distance across multiple samples.
 ## Threshold Determination
 
-The following MATLAB scripts are used to determine the maximum threshold values for the identification process:
+The following MATLAB scripts are used to determine the threshold values for the identification process:
 
 *   **`HDmax.m`**: Used to calculate the maximum Hamming Distance (HD) threshold for physical responses.
 *   **`JDmax.m`**: Used to calculate the maximum Jaccard Distance (JD) threshold for behavioral responses.
