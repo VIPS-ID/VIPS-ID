@@ -16,6 +16,12 @@ This module is dedicated to the characterization of a **BPUF (Behavioral Physica
     *   `reshape_to_resp_PUF`: For formatting the data into the PUF response structure.
     *   `distanciaJaccard_mod`: For calculating the modified Jaccard distance.
     *   `distanciaJaccard_mod_average`: For computing the average modified Jaccard distance across multiple samples.
+## Threshold Determination
+
+The following MATLAB scripts are used to determine the maximum threshold values for the identification process:
+
+*   **`HDmax.m`**: Used to calculate the maximum Hamming Distance (HD) threshold for physical responses.
+*   **`JDmax.m`**: Used to calculate the maximum Jaccard Distance (JD) threshold for behavioral responses.
 
 ## PUF Response Extraction (Baseline)
 
