@@ -6,7 +6,7 @@ This repository contains the software components for the prover side, focusing o
 
 This module is dedicated to the characterization of a **BPUF (Behavioral Physical Unclonable Function)** and includes the following components:
 
-*   **`Medidas_Wipy/`**: A directory containing the measurement data collected from the WiPy platform.
+*   **`Measurements_ESP32/`**: A directory containing the measurement data collected from the WiPy platform.
 *   **`physical_response_analysis.m`**: The main MATLAB script used to analyze the physical response of the BPUF. This script utilizes the following auxiliary functions:
     *   `lee_medidas`: For reading the measurement data.
     *   `reshape_to_resp_PUF`: For formatting the data into the PUF response structure.
