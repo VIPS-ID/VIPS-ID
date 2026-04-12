@@ -13,3 +13,5 @@ The library implements the following functions, distributed across the system en
 2. **indcpa_enc** (Implementation of **Kyber.AHE.Encrypt**): Executed by the **Client** (an **embedded IoT device**) to secure data at the source.
 3. **indcpa_eval** (Implementation of **Kyber.AHE.Eval**): Executed by the **Database Server (DBS)** to perform the modulo 2 addition of two 256-bit bitstrings directly in the encrypted domain.
 4. **indcpa_dec** (Implementation of **Kyber.AHE.Decrypt**): Executed by the **Authentication Server (AS)** to decrypt the resulting modulo 2 addition obtained from the evaluation process.
+
+In order to use it, please include the indcpa.h file.
